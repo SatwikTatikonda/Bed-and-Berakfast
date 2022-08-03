@@ -1,0 +1,297 @@
+<!-- <?php
+
+if(empty($_POST['name'])){
+  $error1="please enter the name";
+
+}
+
+if(empty($_POST['email'])){
+  $error2="please enter the email";
+
+}
+else
+
+
+
+
+?> -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style3.css" />
+    <script
+      src="https://kit.fontawesome.com/8fb8e03dbe.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- <div class="container">
+      <div class="row text-center">
+        <div class="col-12">
+          <h3>FILL THE FORM BELOW AND START ENJOYING OUR SERVICES</h3>
+        </div>
+      </div>
+    </div>
+    <form class="frm" action="demo.php" method="post">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <label for="inputEmail4" class="form-label">Email</label>
+            <input
+              type="email"
+              name="name"
+              class="form-control"
+              id="inputEmail4"
+              required
+            />
+          </div>
+          <div class="col-md-6">
+            <label for="inputPassword4" class="form-label">Password</label>
+            <input type="password" class="form-control" id="inputPassword4" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <label for="inputAddress" class="form-label">Address</label>
+            <input
+              type="text"
+              class="form-control"
+              id="inputAddress"
+              placeholder="1234 Main St"
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <label for="inputAddress2" class="form-label">Address 2</label>
+            <input
+              type="text"
+              class="form-control"
+              id="inputAddress2"
+              placeholder="Apartment, studio, or floor"
+            />
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6">
+            <label for="inputCity" class="form-label">City</label>
+            <input
+              type="text"
+              class="form-control"
+              name="city"
+              id="inputCity"
+            />
+          </div>
+          <div class="col-md-4">
+            <label for="inputState" class="form-label">State</label>
+            <select id="inputState" class="form-select">
+              <option selected>Choose...</option>
+              <option>...</option>
+            </select>
+          </div>
+          <div class="col-md-2">
+            <label for="inputZip" class="form-label">Zip</label>
+            <input type="text" class="form-control" id="inputZip" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck" />
+              <label class="form-check-label" for="gridCheck">
+                Check me out
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <button type="submit" class="btn btn-primary">Submitt</button>
+          </div>
+        </div>
+      </div>
+    </form> -->
+    <!-- 
+    <form action="demo.php" method="post">
+      <label for="">enter name</label>
+      <input type="text" name=""name >
+      <input type="submit" value="">
+    </form> -->
+    <!-- ----------------------------------------------------------------------- -->
+    <!-- <form action="demo.php" method="post">
+      Name: <input type="text" name="name" /><br />
+      E-mail: <input type="text" name="email" /><br />
+      <input type="submit" />
+    </form> -->
+    <!-- -------------------------------------------------------------------------------- -->
+
+    <div class="container">
+      <form action="bookingdetails.php" method="post">
+        <div class="row text-center">
+          <div class="column-12">
+            <br />
+            <h2 style="font-family: 'Permanent Marker'">FILL YOUR DETAILS</h2>
+            <!-- <br /> -->
+            <!-- <h2 style="font-family: 'lemonada'">FILL THE FORM BELOW</h2> -->
+            <hr />
+          </div>
+        </div>
+
+        <div class="row">
+          <label for="">Full Name</label>
+          <div class="col-6">
+            <!-- <input class="form-control form-control-lg" type="text" placeholder=".form-control-lg" aria-label=".form-control-lg example"> -->
+            <input
+              class="form-control"
+              type="text"
+              placeholder="First Name"
+              aria-label="default input example"
+              name="fname"
+              required
+            />
+            <!-- <input class="form-control form-control-sm" type="text" placeholder=".form-control-sm" aria-label=".form-control-sm example"> -->
+          </div>
+          <div class="col-6">
+            <input
+              class="form-control"
+              type="text"
+              placeholder="Last Name"
+              aria-label="default input example"
+              name="lname"
+              required
+            />
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-12">
+            <br />
+            <label for="">Adress</label>
+            <input
+              class="form-control"
+              type="text"
+              placeholder="The Place where you live"
+              aria-current=""
+            />
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-6">
+            <br /><label for=""></label>
+            <input
+              class="form-control"
+              type="text"
+              placeholder="City"
+              aria-current=""
+            />
+          </div>
+          <div class="col-6">
+            <br /><label for=""></label>
+            <input
+              class="form-control"
+              type="text"
+              placeholder="State"
+              aria-current=""
+            />
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-3">
+            <br /><label for="">Check-in Date</label><br />
+            <input class="form-control" type="date" name="date1" />
+          </div>
+          <div class="col-3">
+            <br />
+            <label for="">Check-out Date</label><br />
+            <input class="form-control" type="date" name="date2" />
+          </div>
+          <div class="col-3">
+            <br />
+            <label for="">No of Guests</label><br />
+            <input type="number" class="form-control" name="guests" />
+          </div>
+          <div class="col-3">
+            <br />
+            <label for="">Room Class</label><br />
+            <!-- <input type="number" class="form-control" name="guests" /> -->
+
+            <select
+              class="form-select"
+              name="rtype"
+              aria-label="Default select example"
+            >
+              <option selected>Choose Room</option>
+              <option value="Single BedRoom-1250Rs">
+                Single BedRoom-1250Rs
+              </option>
+              <option value="Double BedRoom-1750Rs">
+                Double BedRoom-1750Rs
+              </option>
+              <option value="Triple BedRoom-2250Rs">
+                Triple BedRoom-2250Rs
+              </option>
+            </select>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-6">
+            <br />
+            <label for="">E-mail</label>
+            <input
+              type="email"
+              class="form-control"
+              placeholder="Give an valid mail-id"
+              name="mail"
+              required
+            />
+          </div>
+          <div class="col-6">
+            <br />
+            <label for="">Contact Number</label>
+            <input type="number" class="form-control" name="phnnum" required />
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-12">
+            <br />
+            <label for="">Any Special Requiremnts</label>
+            <textarea
+              class="form-control"
+              name=""
+              id=""
+              cols="30"
+              rows="4"
+            ></textarea>
+          </div>
+        </div>
+
+        <div class="row text-center">
+          <div class="col-12">
+            <br />
+            <button class="btn btn-dark" type="submit">SUBMIT</button>
+          </div>
+        </div>
+        <br />
+      </form>
+    </div>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="bootstrap/js/popper.min.js"></script>
+  </body>
+</html>

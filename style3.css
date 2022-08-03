@@ -1,0 +1,34 @@
+body {
+  background-image: url("images/bg4.png");
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  /* background-image: url(../images/bg4.png); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: aquamarine;
+  /* color: aqua; */
+}
+h5 {
+  color: rgb(33, 33, 67);
+}
+.square {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  margin-bottom: 5px;
+  opacity: 0.8;
+  border: 1px solid black;
+  border-radius: 30px;
+}
+.square:hover {
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+}
+.btncls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

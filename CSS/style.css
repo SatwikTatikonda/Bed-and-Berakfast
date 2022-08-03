@@ -1,0 +1,352 @@
+* {
+  font-family: "Ubuntu";
+}
+
+.top-header {
+  background-color: rgb(16, 17, 17);
+}
+.txt {
+  font-family: "Cabin Sketch";
+
+  color: white;
+}
+.bottom-header {
+  background-color: #f3f5f7;
+}
+a:hover {
+  color: violet;
+}
+.foot {
+  color: white;
+}
+.ter P {
+  margin: 30px;
+}
+.card img {
+  margin: 10px;
+}
+.card:hover {
+  background-color: rgb(12, 14, 14);
+  color: white;
+}
+.card {
+  margin-bottom: 15px;
+}
+.fullfooter a {
+  text-decoration: none;
+  list-style: none;
+  color: white;
+}
+.fullfooter a:hover {
+  text-decoration: underline;
+}
+.topfooter {
+  background-color: black;
+  color: white;
+}
+.bottomfooter {
+  background-color: black;
+  color: white;
+}
+.cat {
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+  width: 900px;
+  margin-left: 300px;
+}
+.findus h2 {
+  font-family: l;
+}
+.navbar ul li a:hover {
+  font-weight: 900;
+  cursor: pointer;
+}
+.navbar ul li a.active {
+  font-weight: bolder;
+}
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 3;
+  left: 0;
+  top: 0;
+  position: fixed;
+  overflow: auto;
+  width: 100%;
+  height: 100%;
+  /* background-color: black; */
+  overflow: auto;
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+.modal-content {
+  /* background-color: black; */
+  /* margin: 5px auto;
+    width: 500px;
+    height: 500px; */
+  background-color: #f5f0f0;
+  margin: 5px auto; /* 15% from the top and centered */
+  border: 1px solid #888;
+  width: 50%; /* Could be more or less, depending on screen size */
+  height: 300px;
+  border-radius: 15px;
+
+  /* position: relative;
+    display: inline-block; */
+}
+.containerfirst {
+  /* display: flex;
+    justify-content: center;
+    align-items: center; */
+  /* position: relative;
+    top: 15%;
+    left: 37%;
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 15px;
+    text-align: center;
+    display: inline-block; */
+
+  margin: 40px 0 0 0;
+  opacity: 0.9;
+}
+/* .containersecond{
+    height: 100px;
+    width: 100px;
+    opacity: 0.7;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.containersecond h2{
+color: rgb(248, 246, 246);
+font-family: 'Permanent Marker', cursive;
+} */
+.modal2 {
+  display: none;
+  overflow: none;
+  z-index: 3;
+}
+.modal2 img {
+  /* border-radius:40px ; */
+  position: fixed;
+  top: 0;
+  left: 40%;
+  opacity: 1;
+  border-radius: 40px;
+}
+
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0px;
+  color: rgb(12, 12, 12);
+  font-weight: 600;
+  font-size: 35px;
+}
+.close:hover,
+.close:focus {
+  color: rgb(133, 10, 10);
+  cursor: pointer;
+}
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoon 0.6s;
+}
+
+@-webkit-keyframes animatezoom {
+  from {
+    -webkit-transform: scale(0);
+  }
+  to {
+    -webkit-transform: scale(1);
+  }
+}
+@keyframes animatezoom {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+.modal-content input[type="text"],
+input[type="password"] {
+  width: 70%;
+  padding: 8px 20px;
+  margin: 5px 90px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 25px;
+}
+.containerfirst label {
+  display: block;
+  text-align: center;
+}
+.containerfirst button {
+  border-radius: 5px;
+  display: block;
+  margin: 5px auto;
+  background-color: white;
+  color: black;
+  font-weight: 600;
+}
+.containerfirst button:hover {
+  color: white;
+  background-color: black;
+}
+.auto-input {
+  /* color:rgb(165, 22, 165); */
+  /* font-family: 'Lemonada';*/
+  font-family: "Permanent Marker", cursive;
+}
+#mybtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+  padding: 15px;
+  border: 2px solid black;
+  border-radius: 4px;
+}
+
+#mybtn:hover {
+  background-color: rgb(102, 101, 101);
+}
+
+.carousel1 {
+  width: 1400px;
+}
+
+.innov ul li {
+  list-style: none;
+  display: inline-block;
+}
+.innov ul li a {
+  color: white;
+  text-decoration: none;
+  background-color: black;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin: 93px;
+  padding: 4px;
+}
+.innov ul li a:hover {
+  background-color: white;
+  color: black;
+}
+
+.rounded {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  margin-bottom: 5px;
+}
+.rounded:hover {
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+}
+.inputgrp {
+  display: flex;
+  /* align-items: center; */
+}
+.decor {
+  /* for faq section  */
+  border: 2px solid black;
+  /* background:black; */
+  /* color:white; */
+  border-radius: 10px;
+  margin: 20px;
+  padding: 15px;
+}
+.decor:hover {
+  background-color: rgb(177, 175, 175);
+}
+.title h3 {
+  background-color: black;
+  color: white;
+  display: inline;
+  padding: 8px;
+  margin: 25px;
+  border: 1px solid black;
+  border-radius: 0 22px 22px 0;
+}
+.evolution {
+  color: rgb(250, 237, 237);
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+}
+.team {
+  display: block;
+  margin: auto;
+  width: 50%;
+  height: 270px;
+}
+.staff {
+  height: 270px;
+  width: 200px;
+}
+.staff1 {
+  height: 270px;
+  width: 200px;
+}
+
+/* styling for staff members */
+.common {
+  width: 200px;
+  height: 270px;
+  margin: 0 0 0 50px;
+}
+.overlay {
+  position: relative;
+
+  left: 0px;
+  right: 0;
+  bottom: 270px;
+  width: 200px;
+  height: 270px;
+  transition: 0.5s ease;
+  background-color: white;
+  opacity: 0;
+}
+.common:hover .overlay {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.text {
+  color: #191919;
+  position: absolute;
+  font-size: 20px;
+  /* font-family: 'Lemonada', cursive; */
+  font-family: "Permanent Marker", cursive;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.staffimg p {
+  font-family: "Permanent Marker", cursive;
+}
+.card {
+  margin-bottom: 0;
+}
+.previewtxt {
+  font-size: 21px;
+}
+.bottomline {
+  color: rgb(180, 46, 46);
+  margin-top: 5px;
+}
